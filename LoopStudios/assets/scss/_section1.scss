@@ -1,0 +1,31 @@
+.section1 {
+  height: 100vh;
+  background-image: url(../images/imagesDesktop/image-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sec1-content {
+  margin-top: 10%;
+  border: 2px solid white;
+  color: white;
+  display: flex;
+  justify-content: start;
+  font-family: "Montserrat", sans-serif;
+  font-size: 66px;
+}
+
+@media only screen and (max-width: 991px) {
+  .section1 {
+    .sec1-content {
+      width: 100%;
+    }
+  }
+}
+@media only screen and (max-width: 778px) {
+  .section1 {
+    background-image: url(../images/imagesMobile/image-hero.jpg);
+    .sec1-content {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.section2 img{
+   width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section2 .container{
+padding: 50px 0;
+}
+.section2 .content .row{
+   height: 50%;
+}
+.section2 .content .row h3{
+   font-size: 50px;
+   font-family: 'Montserrat', sans-serif;
+}
+.section2 .content .row p{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   color: teal;
+}
+

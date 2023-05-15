@@ -1,0 +1,57 @@
+.seeall {
+  font-family: "Roboto Slab", serif;
+  background: transparent;
+  padding: 12px 45px;
+  border: 1px solid black;
+}
+.seeall2 {
+  display: none;
+  font-family: "Roboto Slab", serif;
+  background: transparent;
+  padding: 12px 45px;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+}
+.seeall:hover {
+  background-color: black;
+  color: white;
+}
+.section3 h1 {
+  font-size: 48px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+.creations img:hover {
+  opacity: 0.5;
+}
+.mobileImg{
+  display: none;
+}
+
+
+@media only screen and (max-width:778px){
+  .section3{
+    flex-wrap: wrap;
+    .desktopImg{
+      display: none;
+    }
+    .mobileImg{
+      width: 100%;
+      display: block;
+      padding: 20px 0;
+    }
+    .seeall{
+      display: none;
+    }
+    .seeall2{
+      display: block;
+      margin-left: 35%;
+    }
+    h1{
+      display: flex;
+      justify-content: center !important;
+      align-items: center;
+    }
+  }
+}

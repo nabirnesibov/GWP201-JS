@@ -1,0 +1,56 @@
+footer {
+  padding: 30px 0;
+  margin-top: 30px;
+  background-color: black;
+}
+footer h2 {
+  color: white;
+}
+footer p {
+  color:rgb(115, 56, 145);
+}
+footer a {
+  font-family: "Roboto Slab", serif;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+}
+footer a:hover {
+  color: white;
+  cursor: pointer;
+}
+footer a i {
+    gap: 20px;
+    font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+footer a i:hover {
+  color: white;
+  cursor: pointer;
+}
+footer a:hover::after {
+  content: " ";
+  border: 1px solid white;
+  border-radius: 2px;
+  width: auto;
+  display: block;
+} 
+
+
+@media only screen and(max-width:778px){
+    footer{
+        .row{
+          width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .nav{
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,56 @@
+header {
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+header h2 {
+  font-size: 40px;
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+header .menu {
+  display: none;
+}
+.navbar nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  text-align: center;
+}
+header a {
+  font-family: "Roboto Slab", serif;
+  position: relative;
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+}
+header a:hover {
+  color: white;
+}
+header a:hover::after {
+  display: block;
+  width: 55px;
+  position: absolute;
+  content: "";
+  border: 1px solid white;
+  border-radius: 2px;
+}
+
+
+// .sec1-content h2{
+// }
+
+@media only screen and (max-width: 778px) {
+  header {
+    .menu {
+      color: white;
+      display: block;
+    }
+    nav {
+      display: none;
+    }
+  }
+}
