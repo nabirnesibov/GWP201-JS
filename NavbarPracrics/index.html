@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assests/scss/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header">
+          <div>
+            <nav>
+              <h2>Logo</h2>
+              <i class="fa-solid fa-bars" id="menu"></i>
+              <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Add Users</a></li>
+                <li><a href="">Favorite</a></li>
+                <li><a href="">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="section2">
+      <div class="container"></div>
+    </section>
+    <section class="section3">
+      <div class="container">
+        <h2 class="text-center">Users List</h2>
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Image</th>
+              <th>Name</th>
+              <th>Surname</th>
+              <th>Email</th>
+              <th>Date</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>
+                <img
+                  src="./assests/img/img1.jpg"
+                  width="45pxx"
+                  height="45px"
+                  alt=""
+                />
+              </td>
+              <td>Nabir</td>
+              <td>Nasibov</td>
+              <td>nabir@gmail.com</td>
+              <td>16/05/2023 09:55:42 PM</td>
+              <td>
+                <button class="btn btn-success">Edit</button>
+                <button class="btn btn-danger">Delete</button>
+                <button class="btn btn-primary">Details</button>
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>
+                <img
+                  src="./assests/img/img2.jpg"
+                  width="45x"
+                  height="45px"
+                  alt=""
+                />
+              </td>
+              <td>Raul</td>
+              <td>shukurov</td>
+              <td>raul@gmail.com</td>
+              <td>16/05/2023 09:55:42 PM</td>
+              <td>
+                <button class="btn btn-success">Edit</button>
+                <button class="btn btn-danger">Delete</button>
+                <button class="btn btn-primary">Details</button>
+              </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>
+                <img
+                  src="./assests/img/img3.jpg"
+                  width="45x"
+                  height="45px"
+                  alt=""
+                />
+              </td>
+              <td>Vilayat</td>
+              <td>Zeynalli</td>
+              <td>vilayat@gmail.com</td>
+              <td>16/05/2023 09:55:42 PM</td>
+              <td>
+                <button class="btn btn-success">Edit</button>
+                <button class="btn btn-danger">Delete</button>
+                <button class="btn btn-primary">Details</button>
+              </td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>
+                <img
+                  src="./assests/img/img4.jpg"
+                  width="45x"
+                  height="45px"
+                  alt=""
+                />
+              </td>
+              <td>Ehed</td>
+              <td>Hajiyev</td>
+              <td>ehed@gmail.com</td>
+              <td>16/05/2023 09:55:42 PM</td>
+              <td>
+                <button class="btn btn-success">Edit</button>
+                <button class="btn btn-danger">Delete</button>
+                <button class="btn btn-primary">Details</button>
+              </td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>
+                <img
+                  src="./assests/img/img5.jpg"
+                  width="45x"
+                  height="45px"
+                  alt=""
+                />
+              </td>
+              <td>YavərUsta</td>
+              <td>Filankesov</td>
+              <td>yavərusta@gmail.com</td>
+              <td>16/05/2023 09:55:42 PM</td>
+              <td>
+                <button class="btn btn-success">Edit</button>
+                <button class="btn btn-danger">Delete</button>
+                <button class="btn btn-primary">Details</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+       <div class="container containertablet">
+        <div class="cardtablet">
+            <div class="row">
+              <div class="col-6">
+                <span >Id:1 <span class="time">16/05/2023 09:55:42 PM</span></span>
+              </div>
+              <div class="col-6"></div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <div class="row">
+                  <div class="col-2">
+                    <img
+                      src="./assests/img/img1.jpg"
+                      width="40px"
+                      height="40px"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col">
+                    <strong>Nabir Nasibov</strong><br>
+                    <span>nabir@gmail.com</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 buttons">
+                  <button class="btn btn-success">Edit</button><br>
+                  <button class="btn btn-danger">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="cardtablet">
+            <div class="row">
+              <div class="col-6">
+                <span >Id:1 <span class="time">16/05/2023 09:55:42 PM</span></span>
+              </div>
+              <div class="col-6"></div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <div class="row">
+                  <div class="col-2">
+                    <img
+                      src="./assests/img/img1.jpg"
+                      width="40px"
+                      height="40px"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col">
+                    <strong>Nabir Nasibov</strong><br>
+                    <span>nabir@gmail.com</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 buttons">
+                  <button class="btn btn-success">Edit</button><br>
+                  <button class="btn btn-danger">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="cardtablet">
+            <div class="row">
+              <div class="col-6">
+                <span >Id:1 <span class="time">16/05/2023 09:55:42 PM</span></span>
+              </div>
+              <div class="col-6"></div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <div class="row">
+                  <div class="col-2">
+                    <img
+                      src="./assests/img/img1.jpg"
+                      width="40px"
+                      height="40px"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col">
+                    <strong>Nabir Nasibov</strong><br>
+                    <span>nabir@gmail.com</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 buttons">
+                  <button class="btn btn-success">Edit</button><br>
+                  <button class="btn btn-danger">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="cardtablet">
+            <div class="row">
+              <div class="col-6">
+                <span >Id:1 <span class="time">16/05/2023 09:55:42 PM</span></span>
+              </div>
+              <div class="col-6"></div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <div class="row">
+                  <div class="col-2">
+                    <img
+                      src="./assests/img/img1.jpg"
+                      width="40px"
+                      height="40px"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col">
+                    <strong>Nabir Nasibov</strong><br>
+                    <span>nabir@gmail.com</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 buttons">
+                  <button class="btn btn-success">Edit</button><br>
+                  <button class="btn btn-danger">Delete</button>
+              </div>
+            </div>
+          </div>
+       </div>
+
+       <div class="container containermobile">
+            <div class="cardmobile">
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-9">
+                        <span >Id:1 <span class="time2">16/05/2023 09:55:42 PM</span></span>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-2">
+                        <img src="./assests/img/img1.jpg" width="40px" height="40px" alt="">
+                    </div>
+                    <div class="col-7">
+                        <strong>Nabir Nasibov</strong><br>
+                        <span>nabir@gmail.com</span>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-5 buttonmobile">
+                        <button class="btn btn-success">Edit</button>
+                        <button class="btn btn-danger">Delete</button>
+                    </div>
+
+                    <div class="col"></div>
+                </div>
+            </div>
+            <div class="cardmobile">
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-9">
+                        <span >Id:1 <span class="time2">16/05/2023 09:55:42 PM</span></span>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-2">
+                        <img src="./assests/img/img1.jpg" width="40px" height="40px" alt="">
+                    </div>
+                    <div class="col-7">
+                        <strong>Nabir Nasibov</strong><br>
+                        <span>nabir@gmail.com</span>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-5 buttonmobile">
+                        <button class="btn btn-success">Edit</button>
+                        <button class="btn btn-danger">Delete</button>
+                    </div>
+
+                    <div class="col"></div>
+                </div>
+            </div>
+            <div class="cardmobile">
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-9">
+                        <span >Id:1 <span class="time2">16/05/2023 09:55:42 PM</span></span>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-2">
+                        <img src="./assests/img/img1.jpg" width="40px" height="40px" alt="">
+                    </div>
+                    <div class="col-7">
+                        <strong>Nabir Nasibov</strong><br>
+                        <span>nabir@gmail.com</span>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-5 buttonmobile">
+                        <button class="btn btn-success">Edit</button>
+                        <button class="btn btn-danger">Delete</button>
+                    </div>
+
+                    <div class="col"></div>
+                </div>
+            </div>
+            <div class="cardmobile">
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-9">
+                        <span >Id:1 <span class="time2">16/05/2023 09:55:42 PM</span></span>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-2">
+                        <img src="./assests/img/img1.jpg" width="40px" height="40px" alt="">
+                    </div>
+                    <div class="col-7">
+                        <strong>Nabir Nasibov</strong><br>
+                        <span>nabir@gmail.com</span>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-5 buttonmobile">
+                        <button class="btn btn-success">Edit</button>
+                        <button class="btn btn-danger">Delete</button>
+                    </div>
+
+                    <div class="col"></div>
+                </div>
+            </div>
+
+       </div>
+      </div>
+    </section>
+  </body>
+</html>
