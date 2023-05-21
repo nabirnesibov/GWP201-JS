@@ -13,7 +13,7 @@ submit.addEventListener("submit", function (e) {
         firstname: inputName.value,
         email:inputEmail.value  
     };
-      fetch(`http://localhost:8080/users`, {
+      fetch(`http://localhost:8000/users`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -1,0 +1,28 @@
+{
+    "users":[
+        {
+            "id":1,
+            "photo":"./img/Chef",
+            "name":"Nabir",
+            "surname":"Nasibov",
+            "email":"nabir@gmail.com",
+            "date":"new date"
+        },
+        {
+            "id":2,
+            "photo":"./img/Chef",
+            "name":"Nabir",
+            "surname":"Nasibov",
+            "email":"nabir@gmail.com",
+            "date":"new date"
+        },
+        {
+            "id":3,
+            "photo":"./img/Chef",
+            "name":"Nabir",
+            "surname":"Nasibov",
+            "email":"nabir@gmail.com",
+            "date":"new date"
+        }
+    ]
+}

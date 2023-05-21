@@ -4,7 +4,7 @@ let edit = document.querySelector(".fa-pen");
 
 async function allData() {
   list.innerHTML = "";
-  await fetch("http://localhost:8080/users")
+  await fetch("http://localhost:8000/users")
     .then((res) => res.json())
     .then((data) =>
       data.forEach((element) => {
@@ -15,8 +15,8 @@ async function allData() {
           <p>${element.email}</p>
         </div>
         <div>
-        <button style="background:transparent" id=${element.id} onclick=editData("${element.id}")><i class="fa-solid fa-pen text-success" ></i></button>
-        <button style="background:transparent" id=${element.id} onclick=deleteData("${element.id}")><i class="fa-solid fa-trash-can text-danger" ></i></button>  
+        <a style="background:transparent" href="edit.html?id=${element.id}"id=${element.id} onclick=editData("${element.id}")><i class="fa-solid fa-pen text-success" ></i></a>
+        <a style="background:transparent" id=${element.id} onclick=deleteData("${element.id}")><i class="fa-solid fa-trash-can text-danger" ></i></a>  
         </div>
       </div>
         `;
@@ -26,13 +26,11 @@ async function allData() {
 allData();
 
 function deleteData(id){
-  fetch(`http://localhost:8080/users/${id}`,{method:"DELETE"})
+  fetch(`http://localhost:8000/users/${id}`,{method:"DELETE"})
 }
 
 edit.addEventListener("click",function(e){
   e.preventDefault()
  window.location.href="./edit.html"
-
-
 })
 

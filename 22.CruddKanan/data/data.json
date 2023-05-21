@@ -1,0 +1,16 @@
+{
+  "blogs": [
+    {
+      "title": "Nabir salam netersen",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quasi facilis recusandae aliquid minus voluptatibus quis consequatur deleniti, ut alias magni, temporibus ab, vel nemo dolore libero at. Nisi libero nam voluptates, earum deleniti in velit impedit amet dolorum obcaecati, nemo laborum ad labore tenetur minima commodi eligendi rerum esse!",
+      "author": "Ipsum",
+      "id": 4
+    },
+    {
+      "title": " sagol sen netersen",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quasi facilis recusandae aliquid minus voluptatibus quis consequatur deleniti, ut alias magni, temporibus ab, vel nemo dolore libero at. Nisi libero nam voluptates, earum deleniti in velit impedit amet dolorum obcaecati, nemo laborum ad labore tenetur minima commodi eligendi rerum esse!",
+      "author": "Lorem",
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "Vilayat",
+      "lastName": "Zeynalli",
+      "email": "vilayat@gmil.com",
+      "cardnumber": "83248973248923"
+    },
+    {
+      "id": "1",
+      "firstName": "Ehed",
+      "lastName": "Hajjiyev",
+      "email": "ehed@gmil.com",
+      "cardnumber": "83248973248923"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "firstName": "Nabir",
+      "lastName": "Nasibov",
+      "email": "nabir@gmail.com",
+      "cardNumber": "1324353535"
+    },
+    {
+      "firstName": "Raul",
+      "lastName": "Nasibov",
+      "email": "raul@gmail.com",
+      "cardNumber": "1324654756535"
+    },
+    {
+      "firstName": "Vilayat",
+      "lastName": "Nasibov",
+      "email": "vilayat@gmail.com",
+      "cardNumber": "1767534673535"
+    }
+  ]
+}
