@@ -1,0 +1,25 @@
+.home{
+    background-color: palevioletred;
+    margin-top: 93px;
+    padding: 50px 0;
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        color: white;
+        row-gap: 30px;
+        a{
+            background-color: white;
+            &:hover{
+                background-color: transparent;
+                color: white;
+            }
+        }
+    }
+    .banner-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

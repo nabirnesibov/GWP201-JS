@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  z-index: 3;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+  background-color: palevioletred;
+}
+
+header .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header .navbar .menu {
+  display: none;
+}
+
+header .header .navbar nav .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+  margin-bottom: 0;
+}
+
+header .header .navbar nav .list li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 767px) {
+  header .header .navbar .menu {
+    display: block;
+  }
+  header .header .navbar nav {
+    display: none;
+  }
+}
+
+.home {
+  background-color: palevioletred;
+  margin-top: 93px;
+  padding: 50px 0;
+}
+
+.home .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  color: white;
+  row-gap: 30px;
+}
+
+.home .content a {
+  background-color: white;
+}
+
+.home .content a:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.home .banner-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.robotics {
+  padding: 80px 0;
+}
+/*# sourceMappingURL=main.css.map */

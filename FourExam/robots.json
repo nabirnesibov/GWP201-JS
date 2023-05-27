@@ -1,0 +1,30 @@
+{
+  "robots": [
+    {
+      "id": 1,
+      "photo": "./img/p3.png",
+      "title": "Upper3",
+      "content": "Lorem ipsut",
+      "price": 1
+    },
+    {
+      "id": 2,
+      "photo": "./img/p2.png",
+      "title": "Crab3",
+      "content": "Lorem ipsum , .Laboriosa",
+      "price": 2
+    },
+    {
+      "id": 1685012654357,
+      "photo": "./img/p4.png",
+      "title": "YaverUsta",
+      "content": "Aşpazdı brat"
+    },
+    {
+      "id": 1685012676555,
+      "photo": "./img/banner-img.png",
+      "title": "salam",
+      "content": "bxcjhfvjsdfhvdsbgdfnbdhjbgi"
+    }
+  ]
+}

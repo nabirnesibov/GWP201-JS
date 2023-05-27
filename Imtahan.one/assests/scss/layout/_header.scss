@@ -1,0 +1,48 @@
+header{
+    background-color: white;
+    width: 100%;
+    position:fixed;
+    top: 0;
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+        .navbar{
+            .menu{
+                display: none;
+            }
+            nav{
+                ul{
+                    display: flex;
+                    gap: 40px;
+                    margin-bottom: 0;
+                    li{
+                        a{
+                            color: black;
+                            text-decoration: none;
+                            &:hover{
+                                color: rgb(81, 149, 198);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px){
+    header{
+        .header{
+            .navbar{
+                .menu{
+                    display: block;
+                }
+                nav{
+                    display: none;
+                }
+            }
+        }
+    }
+}

@@ -3,7 +3,8 @@
   padding: 0;
   list-style-type: none;
   text-decoration: none;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 header {
@@ -13,13 +14,16 @@ header {
 .section1 {
   background-color: antiquewhite;
 }
+
 .section1 .searchinput {
   position: relative;
 }
+
 .section1 .searchinput .fa-magnifying-glass {
   position: absolute;
   left: 0;
 }
+
 .section1 .searchinput input {
   border-radius: 5px;
   padding: 5px 0;
@@ -27,8 +31,10 @@ header {
   outline: none;
   border: none;
 }
+
 .section1 a {
   list-style-type: none;
   text-decoration: none;
   color: black;
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,28 @@
+.about{
+    padding: 60px 0;
+    background-color: antiquewhite;  
+    .element{
+        background-color: #fff;
+        padding-bottom: 20px;
+        border: 1px solid transparent;
+        border-radius: 10px;
+       .image{
+        padding: 50px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+       }
+       .element-content{
+           .buttons,h3,p{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+           }
+       }
+    }  
+    p{
+        color: grey;
+    }
+}

@@ -1,0 +1,24 @@
+.home {
+  position: relative !important ;
+  .bg-image {
+    height: 100vh;
+    background-image: url(../img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-color: opacity(0, 0, 0, 0.5);
+  }
+  .container {
+    .fitness-text {
+      display: flex;
+      flex-direction: column;
+align-items: center;
+      position: absolute;
+      top: 55%;
+      left: 28%;
+        h2,
+        h5 {
+        color: white ;
+      }
+    }
+  }
+}

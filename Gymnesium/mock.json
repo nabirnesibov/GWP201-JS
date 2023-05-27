@@ -1,0 +1,31 @@
+{
+  "elements": [
+    {
+      "id": 1,
+      "photo": "./assests/img/o2.png",
+      "title": "Uppe777",
+      "content": "Lorem ipsut",
+      "price": 1
+    },
+    {
+      "id": 2,
+      "photo": "./assests/img/o3.png",
+      "title": "Crab3",
+      "content": "Lorem ipsum ,",
+      "price": 2
+    },
+    {
+      "id": 1685012654357,
+      "photo": "./assests/img/o1.png",
+      "title": "YaverUsta",
+      "content": "Aşpazdı brat"
+    },
+    {
+      "id": 1685158497669,
+      "photo": "./assests/img/o3.png",
+      "title": "nabir",
+      "content": "salammmmm"
+    }
+  ],
+  "favs": []
+}

@@ -1,0 +1,52 @@
+
+   
+    header{
+        z-index: 3;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+    background-color: palevioletred;
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .navbar{
+            .menu{
+                display: none;
+            }
+            nav{
+                .list{
+                    display: flex;
+                    gap: 50px;
+                    margin-bottom: 0;
+                    li{ 
+          
+                        a{
+                            list-style-type: none;
+                            text-decoration: none;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width:767px){
+    header{
+        .header{
+            .navbar{
+                .menu{
+                    display: block;
+
+                }
+                nav{
+                    display: none;
+                }
+            }
+        }
+    }
+}

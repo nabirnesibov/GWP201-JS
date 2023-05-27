@@ -1,0 +1,19 @@
+.about {
+    padding: 50px 0;
+  .users {
+    border: 1px solid black;
+    .photo {
+        margin: auto;
+        width: 30px;
+        height: 30px;
+      padding: 60px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid black;
+    
+    }
+  
+  }
+}

@@ -1,0 +1,60 @@
+footer{
+    background-color: red;
+    .footer{
+        padding: 100px 0;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        .about{
+            p{
+                color: teal;
+               
+            }
+            a{
+                text-decoration: none;
+                color: orange;
+            }
+        }
+        .contact{
+            label{
+                // width: 100%;
+                color: teal;
+            }
+            span{
+                width: 100%;
+            }
+        }
+        .links{
+            display: flex;
+            flex-direction: column;
+            a{
+                text-decoration: none;
+                color: orange;
+            }
+        }
+        .social{
+            gap: 20px;
+            .fa-brands{
+                color: orange;
+                border: 1px solid white;
+                padding: 10px;
+                border-radius: 50%;
+                &:hover{
+                    color: black;
+                    background-color: silver;
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width:991px){
+    footer{
+        .footer{
+            display: flex;
+            flex-direction: column;
+         
+        }
+    }
+}

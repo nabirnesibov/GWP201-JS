@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1684845712427,
+      "photo": "https://preview.colorlib.com/theme/adopted/img/children_2.jpg",
+      "firstName": "Vilo",
+      "age": "13"
+    },
+    {
+      "id": 1684899230645,
+      "photo": "./assests/img/work_thumb_1.jpg",
+      "firstName": "Mariko",
+      "age": "59"
+    },
+    {
+      "id": 1684899249754,
+      "photo": "./assests/img/work_thumb_3.jpg",
+      "firstName": "Ralph",
+      "age": "45"
+    },
+    {
+      "id": 1684902693826,
+      "photo": "./assests/img/children_1.jpg",
+      "firstName": "Macey",
+      "age": "34"
+    }
+  ]
+}

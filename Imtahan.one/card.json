@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "id": "1",
+      "photo": "./assests/img/",
+      "title": "Vilayat",
+      "content": "Zeynalli"
+    },
+    {
+      "id": "2",
+      "photo": "./assests/img/",
+      "title": "Ehed",
+      "content": "Hajjiyev"
+    },
+    {
+      "id": 1684765252185,
+      "photo": "C:\\fakepath\\st-blog-1.jpg",
+      "title": "salam",
+      "content": "salamov"
+    },
+    {
+      "id": 1684767992862,
+      "photo": "C:\\fakepath\\st-blog-2.jpg",
+      "title": "sagol",
+      "content": "sagolov"
+    },
+    {
+      "id": 1684768015911,
+      "photo": "C:\\fakepath\\ss-icon-7.png",
+      "title": "nadir ",
+      "content": "qelwm"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+.course{
+    .students{
+        position: relative;
+        width: 100%;
+       
+        position: relative;
+        overflow: hidden;
+        img{
+            width: 100%;
+            object-fit: cover;
+            height: 100%;
+            scale: 1;
+            height: 100%;
+    
+        }
+        &:hover img{
+            scale: 1.1;
+            transition-duration:  1s;
+            
+        }
+        a{
+            position: absolute;
+            bottom:25% ;
+            left: 5%;
+            list-style-type: none;
+            text-decoration: none;
+            color: white;
+            padding: 10px 36px;
+            border: 1px solid transparent;
+            background-color: red;
+        }
+        .span{
+            position: absolute;
+             bottom: 0%;
+        }
+    }
+}

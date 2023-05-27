@@ -1,0 +1,8 @@
+.blog{
+    padding: 50px 0;
+    .card{
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}

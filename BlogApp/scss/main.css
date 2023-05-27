@@ -1,0 +1,157 @@
+body .container {
+  padding: 0 20%;
+}
+
+body .container header {
+  margin-bottom: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+body .container header ul li {
+  list-style: none;
+}
+
+body .container .div .card {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #eaeaeb;
+  -webkit-box-shadow: 2px 4px;
+          box-shadow: 2px 4px;
+}
+
+body .container .div .card button {
+  text-align: center;
+  background-color: #860909;
+  color: white;
+  font-size: 14px;
+  border: 0;
+  border-radius: 8px;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+body .container .div .card .edit {
+  background-color: orange;
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  color: white;
+}
+
+body .container .div .card .title {
+  color: #040c29;
+}
+
+body .container .div .card .body {
+  color: #860909;
+}
+
+body .container .div .card .author {
+  color: #575555;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #a30d0d;
+}
+
+body header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+body header ul li {
+  list-style: none;
+}
+
+body header ul li a {
+  text-decoration: none;
+  color: #353434;
+}
+
+body .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .main form {
+  color: #353434;
+  margin-top: 50px;
+}
+
+body .main form h3 {
+  text-align: center;
+  color: #a30d0d;
+}
+
+body .main form input {
+  width: 100%;
+  border: 1px solid #c7c6c6;
+  padding: 0;
+  outline: none;
+  padding: 5px 10px;
+}
+
+body .main form textarea {
+  border: 1px solid #c7c6c6;
+  padding: 5px 10px;
+}
+
+body .main form select {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #c7c6c6;
+  outline: none;
+}
+
+body .main form button {
+  text-align: center;
+  background-color: #a30d0d;
+  color: white;
+  font-size: 11px;
+  border: 0;
+  border-radius: 10px;
+  padding: 8px 10px;
+}
+/*# sourceMappingURL=main.css.map */

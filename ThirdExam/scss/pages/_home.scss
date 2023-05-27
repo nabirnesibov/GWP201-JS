@@ -1,0 +1,18 @@
+.home {
+  .carousel-caption {
+    top: 20%;
+    h1,
+    h4 {
+      color: white;
+    }
+    button {
+      padding: 10px 15px;
+      background-color: transparent;
+      color: white;
+      border-color: red;
+      &:hover{
+        background-color: red;
+      }
+    }
+  }
+}

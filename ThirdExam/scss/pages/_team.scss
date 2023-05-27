@@ -1,0 +1,34 @@
+.team{
+
+    padding: 50px 0;
+   .img{
+    &:hover .photos,.content{
+        display: none;
+         }
+    }
+
+        .image{
+        width: 300px;
+        height: 300px;
+        background-image: url(../img/1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .image2{
+         width: 300px;
+        height: 300px;
+        background-image: url(../img/2.jpg);
+             background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .image3{
+        width: 300px;
+        height: 300px;
+        background-image: url(../img/3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+
+    }
+   }
+ 

@@ -1,0 +1,26 @@
+.home{
+    margin-top: 80px;
+    background-image: url(../img/server-banner.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    color: white;
+    h1{
+        padding: 20px;
+        background-color: orangered;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    button{
+        padding: 10px 20px;
+        background-color: orangered;
+        color: white;
+        &:hover{
+            color: white;
+            background-color: rgb(214, 55, 40);
+        }
+    }
+   
+}
